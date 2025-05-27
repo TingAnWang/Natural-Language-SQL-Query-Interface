@@ -63,34 +63,6 @@ PG_DB = "your_database_name"
 openai_api_key = "your-openai-api-key"
 ```
 
-## 🚀 Usage
-
-1. **Start the application**
-   ```bash
-   python app.py
-   ```
-
-2. **Open your browser**
-   - Navigate to `http://localhost:7860`
-   - The Gradio interface will load automatically
-
-3. **Ask questions**
-   - Type your question in plain English
-   - Example: "Show me all companies with revenue over 1 million"
-   - Click Submit or press Enter
-
-4. **View results**
-   - Query results appear in the interactive table
-   - Any errors are displayed in the error section
-
-## 💡 Example Queries
-
-- "How many companies are in the database?"
-- "Show me the top 10 companies by revenue"
-- "Which companies were founded after 2010?"
-- "List all companies in the technology sector"
-- "What's the average employee count across all companies?"
-
 ## 🏗️ Architecture
 
 ```
@@ -119,7 +91,7 @@ openai_api_key = "your-openai-api-key"
 
 **OpenAI API Error**
 - Verify API key is valid and has sufficient credits
-- Check model name (use "gpt-4o" or "gpt-3.5-turbo")
+- Check model name (use "gpt-4o" or "gpt-4.1")
 
 **Query Generation Issues**
 - Ensure table and column names are accurate
