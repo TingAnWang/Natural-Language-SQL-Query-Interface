@@ -24,14 +24,9 @@ Before running this application, ensure you have:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/natural-language-db-query.git
-   cd natural-language-db-query
+   git https://github.com/TingAnWang/Natural-Language-SQL-Query-Interface.git
    ```
-
 2. **Install required packages**
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 3. **Set up environment variables** (Optional)
    ```bash
